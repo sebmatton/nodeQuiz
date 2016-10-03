@@ -1,0 +1,114 @@
+{
+	"questions": [
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_debrigode_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_debrigode_correct.mp3",
+			"responses":[
+				{"value":"Benoît Poelvoorde"},
+				{"value":"François Damiens"},
+				{"value":"François de Brigode", "correct":true},
+				{"value":"Jacques Brel"}
+			]
+		},
+		{
+			"question":"Qui chante ?",
+			"audio_question":"brevets_2014/quiz_dion_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_dion_correct.mp3",
+			"responses":[
+				{"value":"Céline Dion", "correct":true},
+				{"value":"Mère Theresa"},
+				{"value":"Sandra Kim"},
+				{"value":"Jenifer"}
+			]
+		},
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_elio_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_elio_correct.mp3",
+			"responses":[
+				{"value":"Herman Van Rompuy"},
+				{"value":"Jamel Debbouze"},
+				{"value":"Elio Di Rupo", "correct":true},
+				{"value":"Franck Dubosc"}
+			]
+		},
+		{
+			"question":"Qui chante ?",
+			"audio_question":"brevets_2014/quiz_elsa_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_elsa_correct.mp3",
+			"responses":[
+				{"value":"Shy'm"},
+				{"value":"Amel Bent"},
+				{"value":"Elsa", "correct":true},
+				{"value":"Édith Piaf"}
+			]
+		},
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_gad_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_gad_correct.mp3",
+			"responses":[
+				{"value":"Barack Obama"},
+				{"value":"Christophe Dechavanne"},
+				{"value":"Gad Elmaleh", "correct":true},
+				{"value":"Charles Michel"}
+			]
+		},
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_hollande_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_hollande_correct.mp3",
+			"responses":[
+				{"value":"Didier Reynders"},
+				{"value":"Thomas Van Hamme"},
+				{"value":"François Hollande", "correct":true},
+				{"value":"Le Pape François"}
+			]
+		},
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_jerome_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_jerome_correct.mp3",
+			"responses":[
+				{"value":"Jali"},
+				{"value":"Martin Luther King"},
+				{"value":"Johnny Hallyday"},
+				{"value":"Jérome Walmag", "correct":true}
+			]
+		},
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_louane_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_louane_correct.mp3",
+			"responses":[
+				{"value":"Marion Cotillard"},
+				{"value":"Joëlle Milquet"},
+				{"value":"Louane", "correct":true},
+				{"value":" Alexandra Lamy"}
+			]
+		},
+		{
+			"question":"Qui parle ?",
+			"audio_question":"brevets_2014/quiz_philipe_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_philipe_correct.mp3",
+			"responses":[
+				{"value":"Jean Dujardin"},
+				{"value":"Yves Leterme"},
+				{"value":"Miley Cyrus"},
+				{"value":"Le Roi Phillipe", "correct":true}
+			]
+		},
+		{
+			"question":"Qui chante ?",
+			"audio_question":"brevets_2014/quiz_stromae_invert.mp3",
+			"audio_correct":"brevets_2014/quiz_stromae_correct.mp3",
+			"responses":[
+				{"value":"Pascal Obispo"},
+				{"value":"Keen'V"},
+				{"value":"Stromae", "correct":true},
+				{"value":"Jacques Brel"}
+			]
+		}
+	] 
+}

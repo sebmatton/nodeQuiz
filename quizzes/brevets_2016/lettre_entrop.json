@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"\"PAGNE\" - Un jeune noble attaché au service d'un roi, reine ou prince.",
+			"responses":[
+				{"value":"G"},
+				{"value":"E"},
+				{"value":"N", "correct":true},
+				{"value":"P"}
+			]
+		},
+		{
+			"question":"\"SABLEUR\" - Celui-ci s'occupera des salaisons.",
+			"responses":[
+				{"value":"B", "correct":true},
+				{"value":"S"},
+				{"value":"U"},
+				{"value":"L"}
+			]
+		},
+		{
+			"question":"\"BAHUT\" - Monnaie nationale de Thaïlande.",
+			"responses":[
+				{"value":"H"},
+				{"value":"B"},
+				{"value":"U", "correct":true},
+				{"value":"A"}
+			]
+		},
+		{
+			"question":"\"ROUGE\" - Elle roule, elle roule, elle roule.",
+			"responses":[
+				{"value":"U"},
+				{"value":"R"},
+				{"value":"E"},
+				{"value":"G", "correct":true}
+			]
+		},
+		{
+			"question":"\"FRIRE\" - Vous pouvez vous éclater.",
+			"responses":[
+				{"value":"I"},
+				{"value":"R (le 1er)"},
+				{"value":"F", "correct":true},
+				{"value":"E"}
+			]
+		},
+		{
+			"question":"\"BROUSSE\" - Pour se démêler les cheveux.",
+			"responses":[
+				{"value":"R"},
+				{"value":"E"},
+				{"value":"U", "correct":true},
+				{"value":"B"}
+			]
+		},
+		{
+			"question":"\"POISSON\" - Substance pouvant provoquer la mort.",
+			"responses":[
+				{"value":"S", "correct":true},
+				{"value":"P"},
+				{"value":"N"},
+				{"value":"I"}
+			]
+		},
+		{
+			"question":"\"FUSEL\" - Du mazout routier.",
+			"responses":[
+				{"value":"U"},
+				{"value":"L"},
+				{"value":"S", "correct":true},
+				{"value":"F"}
+			]
+		},
+		{
+			"question":"\"BLAGUE\" - Les dames en raffolent.",
+			"responses":[
+				{"value":"G"},
+				{"value":"A"},
+				{"value":"B"},
+				{"value":"L", "correct":true}
+			]
+		},
+		{
+			"question":"\"HERMETIQUE\" - Doctrine d'une église.",
+			"responses":[
+				{"value":"H"},
+				{"value":"M", "correct":true},
+				{"value":"T"},
+				{"value":"Q"}
+			]
+		}
+	] 
+}

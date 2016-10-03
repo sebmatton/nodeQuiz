@@ -1,0 +1,9 @@
+ipv4_bind_addresses = "10.0.0.10"
+timestamp_type = 2
+random_seed_file = "secret.txt"
+
+csv2 = {}
+csv2["lesscouts.be."] = "brevets.txt"
+
+upstream_servers = {}
+upstream_servers["."] = "8.8.8.8"

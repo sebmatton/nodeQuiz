@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<title>Quiz</title>
+	<!-- Styles -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/style_{{ theme }}_screen.css" />
+	<!-- END Styles -->
+</head>
+<body id="screen">
+<div class="header-participant">
+	<div class="cust-right">
+		<span class="onoffline">Hors ligne <span class="badge badge-danger"><span class="glyphicon glyphicon-remove"></span></span></span>
+		<a class="btn btn-sm fullscreen"><span class="glyphicon glyphicon-fullscreen"></span></a>
+	</div>
+</div>
+<div id="loader">
+	<div class="container">
+		<div class="spinner">
+		  <div class="bounce1"></div>
+		  <div class="bounce2"></div>
+		  <div class="bounce3"></div>
+		</div>
+		<div class="loading">Chargement...</div>
+	</div>
+</div>
+
+<div id="homepage">
+	<div class="quiz-logo">
+		<img src="/img/logo-quiz.svg" alt="" />
+	</div>
+
+	<div class="quiz-description">
+		<h2>Title</h2>
+	</div>
+</div>
+
+<div id="questionnaire-home">
+	<div class="questionnaire-description">
+		<span class="title">Prochain quiz :</span>
+		<h2>Title</h2>
+	</div>
+
+	<div class="questionnaire-details">
+		<div class="box">
+			<div class="nombre"><span class="nombre-title">Nombre de questions :</span> <span class="nombre-content">n</span></div>
+			<div class="type"><span class="type-title">Type :</span> <span class="type-content">Standard</span></div>
+		</div>
+	</div>
+
+	<div class="questionnaire-bonus">
+		<div class="bonus-block">
+			<div class="bonus-title">Si vous le souhaitez, il est temps d'activer vos bonus !</div>
+			<ul class="bonus">
+				<li class="delay" data-bonus="delay"><img src="/img/bonus-time.svg" data-available="true" /></li>
+				<li class="double" data-bonus="double"><img src="/img/bonus-x2.svg" data-available="true" /></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="waiting">
+	<div class="questionnaire-description">
+		<h2>Title</h2>
+	</div>
+	<div class="questionnaire-details">
+		<div class="box">
+			<div>Questionnaire terminé. <br />Alors, facile ? ;-)</div>
+		</div>
+	</div>
+</div>
+
+<div id="question">
+	<div class="number">
+		<div class="title">Question</div>
+		<div class="content"><span class="cont-n">x</span> sur <span class="cont-tot">X</span></div>
+	</div>
+	<div class="top-text-bonus">Bonus !</div>
+	<div class="timer">
+		<div class="chart" data-percent="60"><span class="value">10</span>s</div>
+	</div>
+	<div class="alignbot">
+		<div class="question">
+			<div class="box">
+				<h2>Intitulé</h2>
+			</div>
+		</div>
+		<ul class="reponses">
+			<li><a class="poss poss-a" data-rep="A" ><span class="letter">A</span> <span class="poss-cont"></span><div class="align-right"></div></a></li>
+			<li><a class="poss poss-b" data-rep="B" ><span class="letter">B</span> <span class="poss-cont"></span><div class="align-right"></div></a></li>
+			<li><a class="poss poss-c" data-rep="C" ><span class="letter">C</span> <span class="poss-cont"></span><div class="align-right"></div></a></li>
+			<li><a class="poss poss-d" data-rep="D" ><span class="letter">D</span> <span class="poss-cont"></span><div class="align-right"></div></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="modal-notif">
+	<div class="content">
+		Bonne réponse ! Bonne réponse !Bonne réponse !Bonne réponse !
+	</div>
+</div>
+
+<div id="resultats">
+	<div class="title-box">
+		<h2>Résultats</h2>
+	</div>
+	<div class="list">
+		<ul class="list-group users-list">
+		    {% for user in users %}
+		    	{% if user.role == 'guest' %}
+			        <li class="list-group-item h_{{ user.hash }}" data-user-points="{{ user.total_points }}">
+		        		<span class="badge">{{ user.total_points }} pts.</span>
+		        		<div class="pull-left">
+		        			<div class="thumbnail user">
+								<img src="{{ user.avatar }}" alt="" class="user" >
+							</div>
+						</div>
+			        	{{ user.name|e }}<img src="/img/bonus-x2.svg" class="bonus bonus-double{% if user.available_bonus.double == false %} disabled{% endif %}" /><img src="/img/bonus-time.svg" class="bonus bonus-delay {% if user.available_bonus.delay == false %} disabled{% endif %}" />
+		        	</li>
+	        	{% endif %}
+		    {% endfor %}
+		</ul>
+	</div>
+</div>
+
+
+<!-- Scripts -->
+<script type="text/javascript">
+	var user_id = "{{ user_id }}";
+	var server_id = "{{ server_id }}";
+</script>
+<script src="/js/jquery-2.1.4.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/socket.io.js"></script>
+<script src="/js/screenfull.js"></script>
+<script src="/js/jquery.easypiechart.min.js"></script>
+<script src="/js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="/js/screen.js"></script>
+<!-- END Scripts -->
+</body>
+</html>

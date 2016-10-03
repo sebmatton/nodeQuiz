@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Sur quelle base est réalisé le biscuit joconde ?",
+			"responses":[
+				{"value":"Farine de blé"},
+				{"value":"Poudre d'amandes", "correct":true},
+				{"value":"Noix de coco rapée"},
+				{"value":"Farine de Maïs"}
+			]
+		},
+		{
+			"question":"Du lait de quel animal la mozzarella traditionnelle est-elle issue ?",
+			"responses":[
+				{"value":"Du lait de bufflonne", "correct":true},
+				{"value":"Du lait de brebis"},
+				{"value":"Du lait de chèvre"},
+				{"value":"Du lait de vache"}
+			]
+		},
+		{
+			"question":"L'île flottante est servie sur... ?",
+			"responses":[
+				{"value":"Une crème anglaise", "correct":true},
+				{"value":"Une crème patissière"},
+				{"value":"Une crème au beurre"},
+				{"value":"Une crème à la vanille"}
+			]
+		},
+		{
+			"question":"Que ingrédient intervient dans la préparation du riz à sushi ?",
+			"responses":[
+				{"value":"Du vin blanc"},
+				{"value":"De la sauce soja"},
+				{"value":"Du lait de coco"},
+				{"value":"Du vinaigre de riz", "correct":true}
+			]
+		},
+		{
+			"question":"Le beurre persillé est souvent emballé sous une forme amusante, laquelle ?",
+			"responses":[
+				{"value":"En pyramide"},
+				{"value":"En rouleau", "correct":true},
+				{"value":"En cube"},
+				{"value":"En boule"}
+			]
+		},
+		{
+			"question":"Combien de morceaux de sucre y a t-il dans 1 litre de Coca Cola ?",
+			"responses":[
+				{"value":"5"},
+				{"value":"8"},
+				{"value":"13"},
+				{"value":"20", "correct":true}
+			]
+		},
+		{
+			"question":"Avec quel poisson prépare-t-on les Rollmops ?",
+			"responses":[
+				{"value":"Du hareng", "correct":true},
+				{"value":"Du thon"},
+				{"value":"De la truite"},
+				{"value":"Du haddock"}
+			]
+		},
+		{
+			"question":"Quel est le point commun entre les oeufs et les yeux ?",
+			"responses":[
+				{"value":"Ils peuvent être cernés"},
+				{"value":"Ils peuvent être pochés", "correct":true},
+				{"value":"Ils peuvent être au beurre noir"},
+				{"value":"Ils peuvent être mixés"}
+			]
+		},
+		{
+			"question":"La tarte al Djote est à base de fromage fondu avec des oeufs, du beurre et... ? ",
+			"responses":[
+				{"value":"Échalotes et fenouil"},
+				{"value":"Crème fraiche et jambon"},
+				{"value":"Oignons et bette", "correct":true},
+				{"value":"Beurre et beurre"}
+			]
+		},
+		{
+			"question":"Le véritable pâté gaumais est une tourte couverte fourrée de viande hachée de... ?",
+			"responses":[
+				{"value":"Porc", "correct":true},
+				{"value":"Porc et boeuf"},
+				{"value":"Boeuf et veau"},
+				{"value":"Boeuf"}
+			]
+		}
+	] 
+}

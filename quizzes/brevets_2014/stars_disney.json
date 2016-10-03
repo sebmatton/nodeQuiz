@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Dans la saison 3 d'Hannah Montana, Miley se fait arrêter par quel policier ?",
+			"responses":[
+				{"value":"Moldrer"},
+				{"value":"Planck"},
+				{"value":"Diaria", "correct":true},
+				{"value":"Muller"}
+			]
+		},
+		{
+			"question":"Comment s'appelle la mère d'Alex dans les sorciers de waverly place ?",
+			"responses":[
+				{"value":"Theresa", "correct":true},
+				{"value":"Tina"},
+				{"value":"Therese"},
+				{"value":"Tiffany"}
+			]
+		},
+		{
+			"question":"Comment s'appellent les 3 jonas brothers ?",
+			"responses":[
+				{"value":"Joe , Troy , Chad"},
+				{"value":"Kevin , Joe , Nick", "correct":true},
+				{"value":"Chad , Kevin , Joe"},
+				{"value":"Nick, Joe, Chad"}
+			]
+		},
+		{
+			"question":"Comment s'appelle Ashley tisdale dans high school musical ?",
+			"responses":[
+				{"value":"Sharpay", "correct":true},
+				{"value":"Vanesse"},
+				{"value":"Shirley"},
+				{"value":"Ashley"}
+			]
+		},
+		{
+			"question":"Dans la série jonas, comment s'appelle le frère des 3 jonas",
+			"responses":[
+				{"value":"Felix"},
+				{"value":"Frankie", "correct":true},
+				{"value":"Franke"},
+				{"value":"Fred"}
+			]
+		},
+		{
+			"question":"Dans la série La vie de palace de Zack et Cody, quels sont les vrais prénoms des jumeaux ?",
+			"responses":[
+				{"value":"Jason et Dan"},
+				{"value":"Cole et David"},
+				{"value":"David et Jonathan"},
+				{"value":"Cole et Dylan", "correct":true}
+			]
+		},
+		{
+			"question":"Dans la série Trop la classe, comment s'appele le nouveau ?",
+			"responses":[
+				{"value":"Raphaël"},
+				{"value":"François"},
+				{"value":"Maxime", "correct":true},
+				{"value":"Xavier"}
+			]
+		},
+		{
+			"question":"Dans Hannah montana le film, pour dévoiler son secret, Hannah chante...",
+			"responses":[
+				{"value":"The climb", "correct":true},
+				{"value":"Let's do this"},
+				{"value":"La vie en rose"},
+				{"value":"Nobody's perfect"}
+			]
+		},
+		{
+			"question":"Demi Lovato et Selena Gomez ont tourné ensemble…",
+			"responses":[
+				{"value":"High School Musical"},
+				{"value":"Camp Rock"},
+				{"value":"Princess Protection Program", "correct":true},
+				{"value":"Sister Act"}
+			]
+		},
+		{
+			"question":"De quelle série Martina Stoessel est-elle le personnage principal ?",
+			"responses":[
+				{"value":"Violetta", "correct":true},
+				{"value":"Sonny"},
+				{"value":"Hanna Montana"},
+				{"value":"Dexter"}
+			]
+		}
+	] 
+}

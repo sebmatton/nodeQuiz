@@ -1,0 +1,48 @@
+{
+	"name":"Quiz Kiwanis",
+	"short": "Quiz Kiwanis",
+	"author":"Sébastien Matton",
+	"image": {"url":"/img/logo-kiwanis.png","ratio":0.6},
+	"quizzes": [
+		{
+			"name":"Pour du beurre",
+			"path":"test.json",
+			"type":"Pour du beurre",
+			"active":true
+		},
+
+		{
+			"name":"Art et artistes",
+			"path":"arts.json",
+			"type":"Standard",
+			"active":true
+		},
+
+		{
+			"name":"Les monarchies en Europe",
+			"path":"monarchies_europe.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Kiwanis",
+			"path":"kiwanis.json",
+			"type":"Standard",
+			"active":true
+		},
+
+		{
+			"name":"Culinaire",
+			"path":"cuisine.json",
+			"type":"Contre la montre",
+			"active":true
+		},
+		{
+			"name":"Audio",
+			"path":"audio.json",
+			"type":"Audio",
+			"active":true
+		}
+		
+	]
+}

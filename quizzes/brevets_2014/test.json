@@ -1,0 +1,31 @@
+{
+	"questions": [
+		{
+			"question":"Quelle est la couleur du cheval blanc de napoléon ?",
+			"responses":[
+				{"value":"Blanc", "correct":true},
+				{"value":"Rouge"},
+				{"value":"Bleu"},
+				{"value":"Vert"}
+			]
+		},
+		{
+			"question":"Combien y a-t-il de trous dans la flute à 6 trous ?",
+			"responses":[
+				{"value":"1"},
+				{"value":"3"},
+				{"value":"6", "correct":true},
+				{"value":"9"}
+			]
+		},
+		{
+			"question":"De quelle couleur est le ciel ?",
+			"responses":[
+				{"value":"Rouge sang"},
+				{"value":"Bleu ciel", "correct":true},
+				{"value":"Vert pomme"},
+				{"value":"Brun caca"}
+			]
+		}
+	] 
+}

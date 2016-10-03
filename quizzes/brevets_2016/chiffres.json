@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"\"1\" est le titre d'une compilation de quel groupe ?",
+			"responses":[
+				{"value":"Les Stones"},
+				{"value":"Les Beatles", "correct":true},
+				{"value":"U2"},
+				{"value":"Queen"}
+			]
+		},
+		{
+			"question":"Où habite l'assassin dans le film réalisé par Henri-Georges Clouzot ?",
+			"responses":[
+				{"value":"Au 21", "correct":true},
+				{"value":"Au 31"},
+				{"value":"Au 41"},
+				{"value":"Au 51"}
+			]
+		},
+		{
+			"question":"Combien y a-t-il de Chinois dans la chanson de Dutronc, \"Et moi et moi et moi\" ?",
+			"responses":[
+				{"value":"300 millions"},
+				{"value":"400 millions"},
+				{"value":"500 millions"},
+				{"value":"700 millions", "correct":true}
+			]
+		},
+		{
+			"question":"Combien y a-t-il de chiffres dans la numération ?",
+			"responses":[
+				{"value":"9"},
+				{"value":"10", "correct":true},
+				{"value":"11"},
+				{"value":"0"}
+			]
+		},
+		{
+			"question":"Combien d'années se sont écoulées entre le début de 197 avant J.-C. et la fin de 143 après J.-C ?",
+			"responses":[
+				{"value":"54"},
+				{"value":"340", "correct":true},
+				{"value":"143"},
+				{"value":"197"}
+			]
+		},
+		{
+			"question":"Combien de chants composent \"L'Odyssée\", épopée grecque attribuée à Homère?",
+			"responses":[
+				{"value":"9"},
+				{"value":"17"},
+				{"value":"24", "correct":true},
+				{"value":"31"}
+			]
+		},
+		{
+			"question":"Comment s'écrit 1515 en numérotation romaine ?",
+			"responses":[
+				{"value":"MDXV"},
+				{"value":"LDCV"},
+				{"value":"MCXV", "correct":true},
+				{"value":"MDXD"}
+			]
+		},
+		{
+			"question":"Sous quel autre nom connaît-on Louis VII ?",
+			"responses":[
+				{"value":"Louis le Pieux"},
+				{"value":"Louis le Gros"},
+				{"value":"Louis le Jeune", "correct":true},
+				{"value":"Louis le Bon"}
+			]
+		},
+		{
+			"question":"En combien de temps a été adjugé le dernier record de vente d'un Picasso (179M$) ?",
+			"responses":[
+				{"value":"3 minutes"},
+				{"value":"11 minutes", "correct":true},
+				{"value":"19 minutes"},
+				{"value":"28"}
+			]
+		},
+		{
+			"question":"Laquelle de ces solution n'as pas de lien avec le chiffre 7 ?",
+			"responses":[
+				{"value":"le titre d'un album de Tintin"},
+				{"value":"le nombre de pécher capitaux"},
+				{"value":"le nombre de Tour de France remportés par Mercx", "correct":true},
+				{"value":"l'intensité du séisme d'Haïti (12 janvier 2010)"}
+			]
+		}
+	] 
+}

@@ -1,0 +1,114 @@
+{
+	"questions": [
+		{
+			"question":"Quand la musique est bonne - JJG",
+			"audio_question":"brevets_2016/quiz_jjg_question.mp3",
+			"audio_correct":"brevets_2016/quiz_jjg_rep.mp3",
+			"responses":[
+				{"value":"Sur les batailles"},
+				{"value":"Sur les guitares"},
+				{"value":"Sur les gibsons", "correct":true},
+				{"value":"Sur les parades"}
+			]
+		},
+		{
+			"question":"Tous les cris, les SOS - Daniel Balavoine",
+			"audio_question":"brevets_2016/quiz_sos_question.mp3",
+			"audio_correct":"brevets_2016/quiz_sos_rep.mp3",
+			"responses":[
+				{"value":"Je m'embrasse avec le bruit"},
+				{"value":"Je me saoule avec le bruit", "correct":true},
+				{"value":"Je m'encours seul avec lui"},
+				{"value":"Je m'accorde un peu de repis"}
+			]
+		},
+		{
+			"question":"Les démons de minuit - Images",
+			"audio_question":"brevets_2016/quiz_demons_question.mp3",
+			"audio_correct":"brevets_2016/quiz_demons_rep.mp3",
+			"responses":[
+				{"value":"J'veux du disque de Funky Music "},
+				{"value":"J'veux le disque de Funky Music "},
+				{"value":"J'veux un disque de Funky Music ", "correct":true},
+				{"value":"J'veux mon disque de Funky Music "}
+			]
+		},
+		{
+			"question":"Toi + Moi - Grégoire",
+			"audio_question":"brevets_2016/quiz_toi_question.mp3",
+			"audio_correct":"brevets_2016/quiz_toi_rep.mp3",
+			"responses":[
+				{"value":"Je sais qu'on est capable", "correct":true},
+				{"value":"Tout est réalisable"},
+				{"value":"Je sais qu'tout est possible"},
+				{"value":"Des étoiles dans les yeux"}
+			]
+		},
+		{
+			"question":"je ne suis pas un heros  - Balavoine",
+			"audio_question":"brevets_2016/quiz_heros_question.mp3",
+			"audio_correct":"brevets_2016/quiz_heros_rep.mp3",
+			"responses":[
+				{"value":"C'est pour ça qu'aujourd'hui j'ai envie d'crier"},
+				{"value":"C'est pour ça qu'aujourd'hui je me doit d'crier"},
+				{"value":"C'est pour ça qu'aujourd'hui je voudrais crier", "correct":true},
+				{"value":"C'est pour ça qu'aujourd'hui je voulais crier"}
+			]
+		},
+		{
+			"question":"Sur ma route - Black M",
+			"audio_question":"brevets_2016/quiz_route_question.mp3",
+			"audio_correct":"brevets_2016/quiz_route_rep.mp3",
+			"responses":[
+				{"value":"Ils me parlaient du lendemain ", "correct":true},
+				{"value":"Ils disaient tout va si bien"},
+				{"value":"Ils pleuraient tous dans leur mains"},
+				{"value":"Ils disaient tout va si vite"}
+			]
+		},
+		{
+			"question":"On s'attache - Christophe Maé",
+			"audio_question":"brevets_2016/quiz_attache_question.mp3",
+			"audio_correct":"brevets_2016/quiz_attache_rep.mp3",
+			"responses":[
+				{"value":"Je suis trop feline"},
+				{"value":"J's suis pas trop viril"},
+				{"value":"Ca tiens qu'à un fil"},
+				{"value":"J'en ai pas le profil", "correct":true}
+			]
+		},
+		{
+			"question":"Behind blue eyes - Limp Bizkit",
+			"audio_question":"brevets_2016/quiz_eyes_question.mp3",
+			"audio_correct":"brevets_2016/quiz_eyes_rep.mp3",
+			"responses":[
+				{"value":"And I shame you"},
+				{"value":"And I blame you", "correct":true},
+				{"value":"And I love you"},
+				{"value":"And I brave you"}
+			]
+		},
+		{
+			"question":"Papaoutai - Stromae",
+			"audio_question":"brevets_2016/quiz_stromae_question.mp3",
+			"audio_correct":"brevets_2016/quiz_stromae_rep.mp3",
+			"responses":[
+				{"value":"Mon sacré papa"},
+				{"value":"Un sacré papa"},
+				{"value":"Ce sacré papa"},
+				{"value":"Ah sacré papa", "correct":true}
+			]
+		},
+		{
+			"question":"Gangnam Style - PSY",
+			"audio_question":"brevets_2016/quiz_psy_question.mp3",
+			"audio_correct":"brevets_2016/quiz_psy_rep.mp3",
+			"responses":[
+				{"value":"Geureon banjeon inneun yeoja", "correct":true},
+				{"value":"Bami omyeon simjangi tteugeowojineun yeoja"},
+				{"value":"Naneun sanai omyeon inneun"},
+				{"value":"Oppa Gangnam Style"}
+			]
+		}
+	] 
+}

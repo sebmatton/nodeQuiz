@@ -1,0 +1,62 @@
+{
+	"name":"Quiz Brevets Éclaireurs Février 2016",
+	"short": "Quiz Brevets",
+	"author":"Sébastien et Nicolas Matton",
+	"image": {"url":"/img/logo-quiz.svg","ratio":0.6},
+	"quizzes": [
+		{
+			"name":"Pour du beurre",
+			"path":"test.json",
+			"type":"Pour du beurre",
+			"active":true
+		},
+		{
+			"name":"Géographie belge",
+			"path":"geo_belge.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Les remèdes de grands-mères",
+			"path":"remedes.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Petit bilan de 2015 !",
+			"path":"actualite_new.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Des chiffres en folie",
+			"path":"chiffres.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Les stars de Disney Channel",
+			"path":"stars_disney.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Une lettre qui manque",
+			"path":"lettre_manque.json",
+			"type":"Contre la montre",
+			"active":true
+		},
+		{
+			"name":"N'oubliez pas les paroles",
+			"path":"paroles.json",
+			"type":"Audio",
+			"active":true
+		},
+		{
+			"name":"Les séries TV",
+			"path":"series.json",
+			"type":"Standard",
+			"active":true
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Quel est le bon remède pour soulager une piqûre d'abeille ?",
+			"responses":[
+				{"value":"Du vinaigre de cuisine", "correct":true},
+				{"value":"Du Jus de citron"},
+				{"value":"Du beurre"},
+				{"value":"De l'urine"}
+			]
+		},
+		{
+			"question":"Quelle est la méthode simple et efficace pour prévenir un herpès ?",
+			"responses":[
+				{"value":"Le poivre"},
+				{"value":"Le sel"},
+				{"value":"L'eau de Cologne"},
+				{"value":"Le glaçon", "correct":true}
+			]
+		},
+		{
+			"question":"Quel est le bon remède pour soulager les sinusites ?",
+			"responses":[
+				{"value":"L'encre de seiche"},
+				{"value":"Un oignon", "correct":true},
+				{"value":"De l'huile de noix"},
+				{"value":"Une gousse d'ail"}
+			]
+		},
+		{
+			"question":"Quel est le bon remède pour soulager les douleurs dentaires ?",
+			"responses":[
+				{"value":"Un clou de girofle", "correct":true},
+				{"value":"Le marteau"},
+				{"value":"Du jus de framboise"},
+				{"value":"La mie de pain"}
+			]
+		},
+		{
+			"question":"Quel est le bon remède contre les petites brûlures ménagères ?",
+			"responses":[
+				{"value":"De l'eau bouillante"},
+				{"value":"Une banane"},
+				{"value":"Un concombre", "correct":true},
+				{"value":"Une pomme"}
+			]
+		},
+		{
+			"question":"Quel est le bon remède pour soigner une coupure ?",
+			"responses":[
+				{"value":"Le poivre noir", "correct":true},
+				{"value":"Le citron"},
+				{"value":"Les asticots"},
+				{"value":"Le vinaigre balsamique"}
+			]
+		},
+		{
+			"question":"Quel est le bon remède pour soigner une toux grasse ?",
+			"responses":[
+				{"value":"La lavande"},
+				{"value":"Le thé vert"},
+				{"value":"Le thym", "correct":true},
+				{"value":"L'échalote"}
+			]
+		},
+		{
+			"question":"Quel est le bon remède pour soigner la rétention d'eau ?",
+			"responses":[
+				{"value":"La semoule de blé dur"},
+				{"value":"L'artichaut", "correct":true},
+				{"value":"L'huile d'olive"},
+				{"value":"La sauce tomate"}
+			]
+		},
+		{
+			"question":"Quel est le bon remède contre les vertiges ?",
+			"responses":[
+				{"value":"Rester à la cave"},
+				{"value":"Les fleurs de lavande", "correct":true},
+				{"value":"Les fraises"},
+				{"value":"Le coquelicot"}
+			]
+		},
+		{
+			"question":"Quel est le bon truc pour se débarrasser des puces dans la maison ?",
+			"responses":[
+				{"value":"Les queues de cerise"},
+				{"value":"La noix de muscade"},
+				{"value":"La bière"},
+				{"value":"Le savon de Marseille", "correct":true}
+			]
+		}
+	] 
+}

@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Quelle est la plus petite ville de Belgique ?",
+			"responses":[
+				{"value":"Ciney"},
+				{"value":"Tubize"},
+				{"value":"Enghien"},
+				{"value":"Durbuy", "correct":true}
+			]
+		},
+		{
+			"question":"Peuplée de 205.000 habitants environ, traversée par la sambre, je suis... ",
+			"responses":[
+				{"value":"Liège"},
+				{"value":"Namur"},
+				{"value":"Charleroi", "correct":true},
+				{"value":"Huy"}
+			]
+		},
+		{
+			"question":"En voiture, je suis à 30 minutes de Bruxelles, 35 minutes de Charleroi et 26 minutes de Namur... ",
+			"responses":[
+				{"value":"Dinant"},
+				{"value":"Nivelles"},
+				{"value":"Louvain-la-Neuve", "correct":true},
+				{"value":"Hannut"}
+			]
+		},
+		{
+			"question":"Quelle ville belge fut anciennement réputée pour son marbre rouge ?",
+			"responses":[
+				{"value":"Philippeville", "correct":true},
+				{"value":"Tournai"},
+				{"value":"Virton"},
+				{"value":"Botassart"}
+			]
+		},
+		{
+			"question":"Je suis à 20 km au sud de Marche-en-Famenne, 11 km au nord de Libramont et 25km à l'ouest de Bastogne...",
+			"responses":[
+				{"value":"Rochefort"},
+				{"value":"St-Hubert", "correct":true},
+				{"value":"Houffalize"},
+				{"value":"Bertrix"}
+			]
+		},
+		{
+			"question":"A quelle altitude culmine le signal de botrange ?",
+			"responses":[
+				{"value":"494m"},
+				{"value":"594m"},
+				{"value":"694m", "correct":true},
+				{"value":"794m"}
+			]
+		},
+		{
+			"question":"Quel est le plus long cours d'eau en Belgique ?",
+			"responses":[
+				{"value":"La Meuse"},
+				{"value":"L'Escaut", "correct":true},
+				{"value":"L'Amblève"},
+				{"value":"La Lesse"}
+			]
+		},
+		{
+			"question":"Quelle localité est la plus méridionalle de Belgique ?",
+			"responses":[
+				{"value":"Dreef"},
+				{"value":"Krekwinkel"},
+				{"value":"Torgny", "correct":true},
+				{"value":"Aubange"}
+			]
+		},
+		{
+			"question":"En 2006, quelle province de la Région Walonne était la plus peuplée ?",
+			"responses":[
+				{"value":"Brabant Wallon"},
+				{"value":"Hainaut", "correct":true},
+				{"value":"Liège"},
+				{"value":"Namur"}
+			]
+		},
+		{
+			"question":"Dans quelle ville de Wallonie y a t'il eu le plus de naissance en 2013 ?",
+			"responses":[
+				{"value":"Mons"},
+				{"value":"Namur"},
+				{"value":"Liège"},
+				{"value":"Charleroi", "correct":true}
+			]
+		}
+	] 
+}

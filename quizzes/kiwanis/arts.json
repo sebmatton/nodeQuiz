@@ -1,0 +1,104 @@
+{
+	"questions": [
+		
+		{
+			"question":"Qui est un artiste d'art nouveau ?",
+			"responses":[
+				{"value":"Dali"},
+				{"value":"Horta", "correct":true},
+				{"value":"Rubens"},
+				{"value":"Delvaux"}
+			]
+		},
+		{
+			"question":"Quel est la couleur du fond de tableau de \"ceci n'est pas un pipe\" ?",
+			"responses":[
+				{"value":"Blanc"},
+				{"value":"Bleu"},
+				{"value":"Beige", "correct":true},
+				{"value":"Vert"}
+			]
+		},
+		{
+			"question":"Combien d'aveugles debout sont peints sur la toile de Bruegel l'ancien \"la parabole des aveugles\" qui illustre aussi notre Blason ?",
+			"responses":[
+				{"value":"3"},
+				{"value":"4"},
+				{"value":"5", "correct":true},
+				{"value":"6"}
+			]
+		},
+		{
+			"question":"Quel est le dessinateur de Suske et Wiske ?",
+			"responses":[
+				{"value":"Vandersteen", "correct":true},
+				{"value":"Sleen"},
+				{"value":"Hergé"},
+				{"value":"Franquin"}
+			]
+		},
+		{
+			"question":"Combien de boules forment l'Atomium ?",
+			"responses":[
+				{"value":"8"},
+				{"value":"9", "correct":true},
+				{"value":"10"},
+				{"value":"12"}
+			]
+		},
+		{
+			"question":"Quel artiste n'est pas belge ?",
+			"responses":[
+				{"value":"Delvaux"},
+				{"value":"Folon"},
+				{"value":"Ensor"},
+				{"value":"Brack", "correct":true}
+			]
+		},
+		{
+			"question":"Combien d'albums de Tintin y a-t-il (incluant Tintin et l'alph'art ?) ",
+			"responses":[
+				{"value":"19"},
+				{"value":"24", "correct":true},
+				{"value":"28"},
+				{"value":"32"}
+			]
+		},
+		{
+			"question":"Quelle est la Nationalité de Chopin ?",
+			"responses":[
+				{"value":"Autrichien"},
+				{"value":"Français"},
+				{"value":"Polonais", "correct":true},
+				{"value":"Hongrois"}
+			]
+		},
+		{
+			"question":"Quel film a remporté le plus d'Oscar ?",
+			"responses":[
+				{"value":"Ben-Hur", "correct":true},
+				{"value":"Titanic"},
+				{"value":"Autant en emporte le vent"},
+				{"value":"Amadeus"}
+			]
+		},
+		{
+			"question":"Qui ne chante pas Bruxelles ?",
+			"responses":[
+				{"value":"Mae", "correct":true},
+				{"value":"Brel"},
+				{"value":"Annegarn"},
+				{"value":"Benabar"}
+			]
+		},
+				{
+			"question":"Quel est la longueur du sexe du David de Michel Ange ?",
+			"responses":[
+				{"value":"8,5 cm"},
+				{"value":"13,6 cm"},
+				{"value":"7,9 cm"},
+				{"value":"92 mm", "correct":true}
+			]
+		}
+	] 
+}

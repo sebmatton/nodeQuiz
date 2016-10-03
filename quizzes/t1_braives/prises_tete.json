@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Si nous mettons de la viande dans du suc gastrique à 37°C, cette viande se dissout.",
+			"responses":[
+				{"value":"Vrai", "correct":true},
+				{"value":"Faux"},
+				{"value":"On ne sait pas"},
+				{"value":"Ça dépend"}
+			]
+		},
+		{
+			"question":"Un coq pond un oeuf sur un toit en pente. Où va tomber l'oeuf ?",
+			"responses":[
+				{"value":"Dans le poulailler"},
+				{"value":"Dans la gouttière"},
+				{"value":"Il reste sur le toit"},
+				{"value":"Nulle part", "correct":true}
+			]
+		},
+		{
+			"question":"Est-il légal de se marier avec la soeur de sa veuve ?",
+			"responses":[
+				{"value":"Sans opinion"},
+				{"value":"Oui"},
+				{"value":"Non"},
+				{"value":"Impossible", "correct":true}
+			]
+		},
+		{
+			"question":"Combien une araignée a-t-elle de paires de pattes ?",
+			"responses":[
+				{"value":"2"},
+				{"value":"4", "correct":true},
+				{"value":"6"},
+				{"value":"8"}
+			]
+		},
+		{
+			"question":"Quel oiseau n'a pas d'ailes et ne peut donc pas voler ?",
+			"responses":[
+				{"value":"L’autruche"},
+				{"value":"La poule"},
+				{"value":"Le cygne"},
+				{"value":"Aucun", "correct":true}
+			]
+		},
+		{
+			"question":"Dans 1L de limonade, il y a 80% d'eau, quel est le pourcentage d'eau dans un 1/2L ?",
+			"responses":[
+				{"value":"20%"},
+				{"value":"40%"},
+				{"value":"80%", "correct":true},
+				{"value":"100%"}
+			]
+		},
+		{
+			"question":"Y a-t-il une vie avant la mort ?",
+			"responses":[
+				{"value":"Oui", "correct":true},
+				{"value":"Non"},
+				{"value":"Personne ne le sait"},
+				{"value":"L’avenir le dira"}
+			]
+		},
+		{
+			"question":"Quelle est la valeur en °C du zéro absolu, la température la plus basse possible ?",
+			"responses":[
+				{"value":"-263,15°C"},
+				{"value":"-273,15°C", "correct":true},
+				{"value":"-363,15°C"},
+				{"value":"-373,15°C"}
+			]
+		},
+		{
+			"question":"Qu'est-ce qu'un bachi-bouzouk ?",
+			"responses":[
+				{"value":"Un genre de machistador"},
+				{"value":"Un mammifère arboricole"},
+				{"value":"Un cavalier de l'armée ottomane", "correct":true},
+				{"value":"Une variété de tabac"}
+			]
+		},
+		{
+			"question":"Résolvez ce calcul : 9+6×9÷2 = ?",
+			"responses":[
+				{"value":"27"},
+				{"value":"36", "correct":true},
+				{"value":"46,5"},
+				{"value":"67, 5"}
+			]
+		}
+	] 
+}

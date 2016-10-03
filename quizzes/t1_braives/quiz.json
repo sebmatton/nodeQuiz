@@ -1,0 +1,62 @@
+{
+	"name":"Quiz T1 Braives",
+	"short": "Quiz T1 Braives",
+	"author":"Sébastien Matton",
+	"image": {"url":"/img/logo-quiz-formation.png","ratio":0.6},
+	"quizzes": [
+		{
+			"name":"Pour du beurre",
+			"path":"test.json",
+			"type":"Pour du beurre",
+			"active":true
+		},
+		{
+			"name":"Actualité 2015",
+			"path":"actualite.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Les monarchies en Europe",
+			"path":"monarchies_europe.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Prise de tête",
+			"path":"prises_tete.json",
+			"type":"Contre la montre",
+			"active":true
+		},
+		{
+			"name":"Les stars de Disney Channel",
+			"path":"stars_disney.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Reconnaissance vocale",
+			"path":"audio.json",
+			"type":"Audio",
+			"active":true
+		},
+		{
+			"name":"Des animaux qui pètent un câble",
+			"path":"animaux.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Une lettre qui s'envole",
+			"path":"lettre_entrop.json",
+			"type":"Contre la montre",
+			"active":true
+		},
+		{
+			"name":"Arts culinaires",
+			"path":"cuisine.json",
+			"type":"Standard",
+			"active":true
+		}
+	]
+}

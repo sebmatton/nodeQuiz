@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Dans quel quartier de New York se déroule le sitcom \"Friends\" ? ",
+			"responses":[
+				{"value":"Brooklyn"},
+				{"value":"Manhattan", "correct":true},
+				{"value":"Queens"},
+				{"value":"Staten Island"}
+			]
+		},
+		{
+			"question":"Dans la série \"Prison Break\", les criminels sont enfermés dans la prison de Fox River qui se trouve dans l’état... ",
+			"responses":[
+				{"value":"du Texas"},
+				{"value":"de l'Illinois", "correct":true},
+				{"value":"du Kansas"},
+				{"value":"de l'Arizona"}
+			]
+		},
+		{
+			"question":"Comment s'apelle l'acolyte de Perceval dans la série \"Kaamelott\" ? ",
+			"responses":[
+				{"value":"Leodagan"},
+				{"value":"Lancelot"},
+				{"value":"Merlin"},
+				{"value":"Karadoc", "correct":true}
+			]
+		},
+		{
+			"question":"La série \"Scorpion\" a pour personnages principaux des...",
+			"responses":[
+				{"value":"Homosexuels"},
+				{"value":"Hippies"},
+				{"value":"Génies", "correct":true},
+				{"value":"Aventuriers"}
+			]
+		},
+		{
+			"question":"Dans \"Scènes de ménages\", comment se nomme le couple jeune ?",
+			"responses":[
+				{"value":"Manon et Alex"},
+				{"value":"Léa et Léo"},
+				{"value":"Marion et Cédric", "correct":true},
+				{"value":"Julie et Florent"}
+			]
+		},
+		{
+			"question":"En 2016, une série déclarée finie reprendra. Laquelle ?",
+			"responses":[
+				{"value":"Prison Break", "correct":true},
+				{"value":"Heroes"},
+				{"value":"Urgences"},
+				{"value":"31"}
+			]
+		},
+		{
+			"question":"Dans Breaking Bad, que se retrouve sur le toit de la maison de Walter White ?",
+			"responses":[
+				{"value":"Une pizza", "correct":true},
+				{"value":"Une poele"},
+				{"value":"Une peluche"},
+				{"value":"Une roue de voiture"}
+			]
+		},
+		{
+			"question":"Dans Games of Thrones, qui a été le seul amour de Jon Snow ?",
+			"responses":[
+				{"value":"Mélisandre"},
+				{"value":"Talisa"},
+				{"value":"Ygrid", "correct":true},
+				{"value":"Brienne"}
+			]
+		},
+		{
+			"question":"Dans \"Plus belle la vie\", comment s'appelle la soeur de Malik ?",
+			"responses":[
+				{"value":"Mélanie"},
+				{"value":"Samia", "correct":true},
+				{"value":"Juliette"},
+				{"value":"Sarah"}
+			]
+		},
+		{
+			"question":"Dans la série \"How I met your mother\", comment s'apelle le bar habituel des héros ?",
+			"responses":[
+				{"value":"Malicorn pub"},
+				{"value":"mac gey's pub"},
+				{"value":"mac laren's pub", "correct":true},
+				{"value":"Bill's pub"}
+			]
+		}
+	] 
+}

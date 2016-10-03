@@ -1,0 +1,22 @@
+S: ([0-9]+)\.\s(.*)
+R: \t\t\t]\n\t\t},\n\t\t{\n\t\t\t"question":"$2",\n\t\t\t"responses":[
+
+S: ^.\.\s(.*)
+R: \t\t\t\t{"value":"$1"},
+
+S: \s(\*\*\*+)"
+R: ", "correct":true
+
+S: \},\n\t\t\t\]
+R: }\n\t\t\t]
+
+Start :
+{
+	"questions": [
+		{
+
+End :
+			]
+		}
+	] 
+}

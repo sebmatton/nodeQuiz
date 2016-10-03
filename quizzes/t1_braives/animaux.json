@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Originaire d'Afrique, on commence à l'observer en Europe !",
+			"responses":[
+				{"value":"La genette", "correct":true},
+				{"value":"Le tamandua"},
+				{"value":"Le suricate"},
+				{"value":"L’oryx"}
+			]
+		},
+		{
+			"question":"C'est un petit félin africain, très doué pour capturer les oiseaux !",
+			"responses":[
+				{"value":"Le gorfou"},
+				{"value":"Le doguera"},
+				{"value":"Le mirounga"},
+				{"value":"Le serval", "correct":true}
+			]
+		},
+		{
+			"question":"Il ressemble à un lynx croisé avec un puma, lui aussi vit en Afrique !",
+			"responses":[
+				{"value":"Le caracal", "correct":true},
+				{"value":"L’irbis"},
+				{"value":"Le kotiya"},
+				{"value":"Le persan"}
+			]
+		},
+		{
+			"question":"Grand consommateur de poissons, on le trouve en Asie ?",
+			"responses":[
+				{"value":"L’axis"},
+				{"value":"Le gavial", "correct":true},
+				{"value":"Le badak"},
+				{"value":"Le linsang"}
+			]
+		},
+		{
+			"question":"Qui peut vivre dans une bulle d'air, sous l'eau ?",
+			"responses":[
+				{"value":"Le moustique"},
+				{"value":"L’araignée", "correct":true},
+				{"value":"La souris"},
+				{"value":"L’ours"}
+			]
+		},
+		{
+			"question":"Sur quel continent vit le panda roux ?",
+			"responses":[
+				{"value":"Asie", "correct":true},
+				{"value":"Europe"},
+				{"value":"Afrique"},
+				{"value":"Amérique"}
+			]
+		},
+		{
+			"question":"La chouette est la femelle du hibou !",
+			"responses":[
+				{"value":"Vrai"},
+				{"value":"Faux", "correct":true},
+				{"value":"C’est l’inverse"},
+				{"value":"Euh..."}
+			]
+		},
+		{
+			"question":"Dans quel pays trouve-t-on le plus de dromadaires ?",
+			"responses":[
+				{"value":"Maroc"},
+				{"value":"Afghanistan"},
+				{"value":"Soudan"},
+				{"value":"Australie", "correct":true}
+			]
+		},
+		{
+			"question":"Nous sommes au Laos, quel oiseau pourrions-nous éventuellement rencontrer ?",
+			"responses":[
+				{"value":"Le busard"},
+				{"value":"Le faisan", "correct":true},
+				{"value":"Le calocitta"},
+				{"value":"Le jabiru"}
+			]
+		},
+		{
+			"question":"Ce petit rongeur fait partie des animaux de compagnie !",
+			"responses":[
+				{"value":"Le capybara"},
+				{"value":"Le dégu", "correct":true},
+				{"value":"Le ratufa"},
+				{"value":"L’urson"}
+			]
+		}
+	] 
+}

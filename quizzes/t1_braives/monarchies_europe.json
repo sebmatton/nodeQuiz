@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"De quel Etat la reine Elisabeth II est-elle la souveraine ?",
+			"responses":[
+				{"value":"Royaume-Uni", "correct":true},
+				{"value":"Allemagne"},
+				{"value":"États-Unis"},
+				{"value":"Flandre"}
+			]
+		},
+		{
+			"question":"De quel Etat Albert II est-il le souverain ?",
+			"responses":[
+				{"value":"France"},
+				{"value":"Belgique"},
+				{"value":"Monaco", "correct":true},
+				{"value":"Andorre"}
+			]
+		},
+		{
+			"question":"De quel Etat le roi Willem-Alexander est-il le souverain ?",
+			"responses":[
+				{"value":"Écosse"},
+				{"value":"Pays-Bas", "correct":true},
+				{"value":"Danemark"},
+				{"value":"Suède"}
+			]
+		},
+		{
+			"question":"De quel Etat le président François Hollande est-il le co-prince ?",
+			"responses":[
+				{"value":"Andorre", "correct":true},
+				{"value":"Lichtenstein"},
+				{"value":"Vatican"},
+				{"value":"Chypre"}
+			]
+		},
+		{
+			"question":"De quel Etat le roi Carl XVI Gustav est-il le souverain ?",
+			"responses":[
+				{"value":"Norvège"},
+				{"value":"Finlande"},
+				{"value":"Maroc"},
+				{"value":"Suède", "correct":true}
+			]
+		},
+		{
+			"question":"De quel Etat le roi Harald V est-il le souverain ?",
+			"responses":[
+				{"value":"Norvège", "correct":true},
+				{"value":"Danemark"},
+				{"value":"Suède"},
+				{"value":"Finlande"}
+			]
+		},
+		{
+			"question":"De quel Etat le prince Hans Adam II est-il le souverain ?",
+			"responses":[
+				{"value":"Liechtenstein", "correct":true},
+				{"value":"Autriche"},
+				{"value":"Slovakie"},
+				{"value":"Roumanie"}
+			]
+		},
+		{
+			"question":"De quel Etat le Grand-Duc Henri 1er est-il le souverain ?",
+			"responses":[
+				{"value":"Principauté de Liège"},
+				{"value":"Luxembourg", "correct":true},
+				{"value":"Allemagne"},
+				{"value":"Autriche"}
+			]
+		},
+		{
+			"question":"De quel Etat le roi Philippe est-il le souverain ?",
+			"responses":[
+				{"value":"France"},
+				{"value":"Portugal"},
+				{"value":"Belgique", "correct":true},
+				{"value":"États-Unis de Flandre-Wallonie"}
+			]
+		},
+		{
+			"question":"De quel royaume le roi Lion est-il le souverain ?",
+			"responses":[
+				{"value":"Royaume animal", "correct":true},
+				{"value":"Royaume végétal"},
+				{"value":"Monde imaginaire"},
+				{"value":"Monde sauvage d’aywaille"}
+			]
+		}
+	] 
+}

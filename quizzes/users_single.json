@@ -1,0 +1,59 @@
+{
+	"users":[
+		{
+			"name":"Cuisine",
+			"role":"guest",
+			"avatar":"/img/user-cuisine.png"
+		},
+		{
+			"name":"Langue des signes",
+			"role":"guest",
+			"avatar":"/img/user-signes.png"
+		},
+		{
+			"name":"Médias",
+			"role":"guest",
+			"avatar":"/img/user-medias.png"
+		},
+		{
+			"name":"Nageur-sauveteur",
+			"role":"guest",
+			"avatar":"/img/user-nageur.png"
+		},
+		{
+			"name":"Nature et forêt",
+			"role":"guest",
+			"avatar":"/img/user-nature.png"
+		},
+		{
+			"name":"Sécurité",
+			"role":"guest",
+			"avatar":"/img/user-securite.png"
+		},
+		{
+			"name":"Soins-O-Scouts",
+			"role":"guest",
+			"avatar":"/img/user-soins.png"
+		},
+		{
+			"name":"Sports insolites",
+			"role":"guest",
+			"avatar":"/img/user-sports.png"
+		},
+		{
+			"name":"Tous en scène",
+			"role":"guest",
+			"avatar":"/img/user-scene.png"
+		},
+		{
+			"name":"Sébastien",
+			"role":"admin",
+			"avatar":"/img/user-unknown.png"
+		},
+		{
+			"name":"Screen",
+			"role":"screen",
+			"avatar":"/img/user-screen.png"
+		}
+	]
+}

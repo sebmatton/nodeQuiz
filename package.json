@@ -1,0 +1,16 @@
+{
+    "name": "quiz-brevets",
+    "version": "0.1.0",
+    "dependencies": {
+    	"express" : "latest",
+    	"twig" : "latest",
+    	"socket.io" : "latest",
+    	"crypto" : "latest",
+    	"async" : "latest",
+    	"express-session" : "latest",
+    	"express-socket.io-session" : "latest",
+        "sequence" : "latest"
+    },
+    "author" : "Sebastien Matton",
+    "description" : "Quiz brevets"
+}

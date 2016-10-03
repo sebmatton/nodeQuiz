@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Quiz</title>
+	<!-- Styles -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/style_{{ theme }}.css" />
+	<!-- END Styles -->
+</head>
+<body id="admin">
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" title="Auteur : {{ quiz_content.author }}"><img src="{{quiz_content.image.url}}" /> {{ quiz_content.name }}</a>
+		</div>
+		<div class="navbar-text navbar-right onoffline">
+			Hors ligne <span class="badge badge-danger"><span class="glyphicon glyphicon-remove"></span></span>
+		</div>
+	</div>
+</nav>
+<div id="wrapper">
+	<div class="row">
+		<div class="col-md-9">
+
+			{# CURRENT QUESTION #}
+			<div class="panel panel-default panel-current-q">
+				<div class="panel-heading">
+					<span class="glyphicon glyphicon-flash"></span> Questionnaire en cours : <span class="questionnaire-title">title</span>
+					<div class="pull-right">
+						<div class="btn btn-default btn-xs">Question <span class="nb">x</span> sur <span class="tot">y</span></div>
+					</div>
+				</div>
+				<div class="panel-content">
+					<div class="countdown">
+						<div class="chart" data-percent="0"><span class="value">0</span>s</div>
+					</div>
+					<ul class="bonus">
+						<li><b>Bonus points doublés :</b> <span class="users-double nobody">Personne n'a activé ce bonus</span></li>
+						<li><b>Bonus délai allongé :</b> <span class="users-delay nobody">Personne n'a activé ce bonus</span></li>
+					</ul>
+					<div class="start-quiz">
+						<a class="action-start-q btn btn-primary btn-lg">Démarrer le questionnaire</a>
+					</div>
+					<div class="quiz-show-question">
+						<div class="box-quest_no_btn">Intitulé</div>
+						<div class="btn-play-question"><a class="btn btn-warning"><span class="glyphicon glyphicon-volume-up"></span>Jouer le son</a></div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="box-poss box-poss-0 correct">
+									<div class="pull-right">
+										<div class="thumbnail user" data-toggle="tooltip" data-placement="top" title="Langue des signes">
+	      									<img src="..." alt="" class="user" >
+	    								</div>
+									</div>
+									<span class="rep-letter">A</span> <span class="rep-a-content">Réponse A</span>
+								</div>
+								<div class="box-poss box-poss-2">
+									<div class="pull-right"></div>
+									<span class="rep-letter">C</span> <span class="rep-c-content">Réponse C</span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="box-poss box-poss-1">
+									<div class="pull-right"></div>
+									<span class="rep-letter">B</span> <span class="rep-b-content">Réponse B</span>
+								</div>
+								<div class="box-poss box-poss-3">
+									<div class="pull-right"></div>
+									<span class="rep-letter">D</span> <span class="rep-d-content">Réponse D</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<div class="quiz-show-question">
+						<a class="action-show-possibilities btn btn-default">Dévoiler les réponses</a>
+						<a class="action-start-countdown btn btn-primary">Démarrer le compte à rebours</a>
+						<a class="action-reveal-correct btn btn-primary">Dévoiler la réponse correcte</a>
+						{# <a class="btn btn-default">Dévoiler participants</a> #}
+						{# <a class="btn btn-default">Dévoiler correction</a> #}
+						<div class="pull-right">
+							<a class="action-next-question btn btn-primary ">Question suivante</a>
+							<a class="action-last-question btn btn-danger ">Terminer</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			{# QUESTIONNAIRES #}
+			<div class="panel panel-default">
+				<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span> Questionnaires</div>
+				<div class="panel-content">
+					<ul class="list-group list-questionnaires">
+					{% for k,q in quiz_content.quizzes %}
+						{% set key %}q{{k}}{% endset %}
+						<li class="list-group-item{% if q.active != true %} disabled{% endif %}{% if done_questionnaires[k] == true %} qdone{% endif %}" data-questionnaire="{{k}}">
+							<span class="quest-counter">{{ k+1 }}</span> 
+							<span class="quest-name">{{ q.name }}</span>
+							<span class="label label-info">{{ q.type }}</span>
+							<span class="label label-warning">{{ quiz_questions[key].questions.length }} questions</span>
+							{% if q.active != true %}<span class="label label-default">Désactivé</span>{% endif %}
+							<span class="pull-right">
+								<button class="action-start btn btn-primary btn-xs"{% if q.active != true %}disabled="disabled"{% endif %}>Démarrer</button>
+								{# <button class="action-stop btn btn-danger btn-xs" disabled="disabled">Arrêter</button> #}
+								<button class="action-correct btn btn-success btn-xs" disabled="disabled">Corriger</button>
+								<button class="action-results btn btn-warning btn-xs" disabled="disabled">Résultats</button>
+								<button class="action-results-general btn btn-warning btn-xs" disabled="disabled">Général</button>
+							</span>
+						</li>
+					{% endfor %}
+					</ul>
+				</div>
+				<div class="panel-footer">
+					<a class="show-homepage btn btn-primary">Afficher la page d'accueil</a>
+					<div class="pull-right">
+						<a class="restore-backup btn btn-default">Restaurer la dernière sauvegarde</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			{# USERS #}
+			<div class="panel panel-default">
+				<div class="panel-heading"><span class="glyphicon glyphicon-tasks"></span> Utilisateurs</div>
+				<div class="panel-content">
+					<ul class="list-group users-list">
+					    {% for user in users %}
+					        <li class="list-group-item h_{{ user.hash }}" data-user-points="{{ user.total_points }}">
+					        	{% if user.connected == true %}
+					        		<span class="badge badge-success">{% if user.total_points < 0 %}-{% else %}{{ user.total_points }} pts.{% endif %}</span>
+				        		{% else %}
+				        			<span class="badge badge-danger">{% if user.total_points < 0 %}-{% else %}{{ user.total_points }} pts.{% endif %}</span>
+				        		{% endif %}
+				        		
+				        		<div class="pull-left">
+				        			<div class="thumbnail user" data-toggle="tooltip" data-placement="right" title="{{ user.hash }}">
+  										<a href="{{ root_url }}/{% if user.role == 'screen' %}s{% else %}u{% endif %}/{{ user.hash }}"><img src="{{ user.avatar }}" alt="" class="user" ></a>
+									</div>
+								</div>
+					        	{{ user.name|e }}<img src="/img/bonus-x2.svg" class="bonus bonus-double{% if user.available_bonus.double == false %} disabled{% endif %}" /><img src="/img/bonus-time.svg" class="bonus bonus-delay{% if user.available_bonus.delay == false %} disabled{% endif %}" />
+				        	</li>
+					    {% endfor %}
+					</ul>
+				</div>
+			</div>
+			<div class="panel panel-default panel-sound">
+				<div class="panel-heading"><span class="glyphicon glyphicon-volume-up"></span> Sons</div>
+				<div class="panel-content">
+					<p>
+						<h4>Compte à rebours</h4>
+						<audio id="countdown_sound" autoplay="false" controls>
+							<source id="countdown_sound_source" src="" type="audio/mpeg">
+								Your browser does not support the audio element.
+						</audio> 
+						<h4>Bonus</h4>
+						<audio id="sound" autoplay="false" controls>
+							<source id="sound_source" src="" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio> 
+						<h4>Question</h4>
+						<audio id="question_audio" autoplay="false" controls>
+							<source id="question_audio_source" src="" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio> 
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Scripts -->
+<script type="text/javascript">
+	var server_id = "{{ server_id }}";
+</script>
+<script src="/js/jquery-2.1.4.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/socket.io.js"></script>
+<script src="/js/jquery.easypiechart.min.js"></script>
+<script src="/js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="/js/admin.js"></script>
+<!-- END Scripts -->
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+	"questions": [
+		{
+			"question":"Qui interprète cette Ballade ?",
+			"audio_question":"kiwanis/Q1.mp3",
+			"audio_correct":"kiwanis/R1.mp3",
+			"responses":[
+				{"value":"Bénabar"},
+				{"value":"Beatles", "correct":true},
+				{"value":"Cabrel"},
+				{"value":"David Bowie"}
+			]
+		},
+		{
+			"question":"Qui nous rappelle le soleil ?",
+			"audio_question":"kiwanis/Q2.mp3",
+			"audio_correct":"kiwanis/R2.mp3",
+			"responses":[
+				{"value":"Charles Trenet"},
+				{"value":"Tino Rossi"},
+				{"value":"Luis Mariano", "correct":true},
+				{"value":"Dany Brillant"}
+			]
+		},
+		{
+			"question":"Quel rockeur s’époumone dans ce morceau ?",
+			"audio_question":"kiwanis/Q3.mp3",
+			"audio_correct":"kiwanis/R3.mp3",
+			"responses":[
+				{"value":"Bruce Springsteen"},
+				{"value":"Brian Adams", "correct":true},
+				{"value":"Angus Young"},
+				{"value":"Bon Scott"}
+			]
+		},
+		{
+			"question":"Qui nous susurre que nous aurons des moments magnifiques ?",
+			"audio_question":"kiwanis/Q4.mp3",
+			"audio_correct":"kiwanis/R4.mp3",
+			"responses":[
+				{"value":"Sam Cooke", "correct":true},
+				{"value":"Bill Haley"},
+				{"value":"Luis Armstrong"},
+				{"value":"Billie Holiday"}
+			]
+		},
+		{
+			"question":"Qui a chanté cette ode à l’amour ?",
+			"audio_question":"kiwanis/Q5.mp3",
+			"audio_correct":"kiwanis/R5.mp3",
+			"responses":[
+				{"value":"Luis Armstrong"},
+				{"value":"Phil Collins"},
+				{"value":"Marvin Gay"},
+				{"value":"Otis Redding", "correct":true}
+			]
+		},
+		{
+			"question":"Que nous chante Michael Jackson ?",
+			"audio_question":"kiwanis/Q6.mp3",
+			"audio_correct":"kiwanis/R6.mp3",
+			"responses":[
+				{"value":"Heal the World"},
+				{"value":"The Girl is mine"},
+				{"value":"Man in the mirror", "correct":true},
+				{"value":"Human Nature"}
+			]
+		},
+		{
+			"question":"Notre Maestro nous a caché un opéra dans cette chanson, lequel ?",
+			"audio_question":"kiwanis/Q7.mp3",
+			"audio_correct":"kiwanis/R7.mp3",
+			"responses":[
+				{"value":"Mariage de Figaro"},
+				{"value":"Aïda"},
+				{"value":"Barbier de Séville"},
+				{"value":"Carmen", "correct":true}
+			]
+		},
+		{
+			"question":"Quel Hit de ABBA se cache sous cette intro ?",
+			"audio_question":"kiwanis/Q8.mp3",
+			"audio_correct":"kiwanis/R8.mp3",
+			"responses":[
+				{"value":"Tale a chance"},
+				{"value":"Gimme, Gimme, Gimme", "correct":true},
+				{"value":"Money Money Money"},
+				{"value":"Waterloo"}
+			]
+		},
+		{
+			"question":"Quel est le nom de cette chanson ?",
+			"audio_question":"kiwanis/Q9.mp3",
+			"audio_correct":"kiwanis/R9.mp3",
+			"responses":[
+				{"value":"Jeff un petit verre on a soif", "correct":true},
+				{"value":"Chef un petit verre on a soif"},
+				{"value":"Un petit ver on a soif"},
+				{"value":"Une petite bière on a soif"}
+			]
+		},
+		{
+			"question":"Qui a chanté officiellement cette chanson et en a fait un succès ?",
+			"audio_question":"kiwanis/Q10.mp3",
+			"audio_correct":"kiwanis/R10.mp3",
+			"responses":[
+				{"value":"Françoise Hardy"},
+				{"value":"Brigitte Bardot"},
+				{"value":"France Gall", "correct":true},
+				{"value":"Jane Birkin"}
+			]
+		},
+		{
+			"question":"Qui se cache sous cette intro ?",
+			"audio_question":"kiwanis/Q11.mp3",
+			"audio_correct":"kiwanis/R11.mp3",
+			"responses":[
+				{"value":"Joe Cocker"},
+				{"value":"Bony Tyler"},
+				{"value":"Meatloaf"},
+				{"value":"Tina Turner", "correct":true}
+			]
+		}
+	] 
+}

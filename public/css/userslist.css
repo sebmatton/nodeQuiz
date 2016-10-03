@@ -1,0 +1,40 @@
+h1 {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	width: 500px;
+	padding-top: 50px;
+}
+
+.avatar {
+	width: 200px;
+	padding-bottom: 7px;
+}
+
+.qrcode {
+	width: 214px;
+}
+
+.avatar, .qrcode {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.team {
+	font-family: "Cocon-Regular";
+	margin-top: 75px;
+	font-size: 40px;
+	display: block;
+}
+.name {
+	font-family: "Cocon-Regular";
+	font-size: 70px;
+	margin: 10px;
+}
+
+.url {
+	font-family: "Lucida console";
+	font-size: 25px;
+	margin: 30px;
+}

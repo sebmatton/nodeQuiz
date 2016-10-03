@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"_ O _ A _ T A I _ E",
+			"responses":[
+				{"value":"C"},
+				{"value":"N", "correct":true},
+				{"value":"P"},
+				{"value":"L"}
+			]
+		},
+		{
+			"question":"R A _ _ O U R _ I R",
+			"responses":[
+				{"value":"M"},
+				{"value":"L"},
+				{"value":"C", "correct":true},
+				{"value":"P"}
+			]
+		},
+		{
+			"question":"_ N _ G R _ M M E",
+			"responses":[
+				{"value":"U"},
+				{"value":"A", "correct":true},
+				{"value":"I"},
+				{"value":"E"}
+			]
+		},
+		{
+			"question":"_ E _ E",
+			"responses":[
+				{"value":"L"},
+				{"value":"T", "correct":true},
+				{"value":"J"},
+				{"value":"R"}
+			]
+		},
+		{
+			"question":"M _ R _ C _ S",
+			"responses":[
+				{"value":"A", "correct":true},
+				{"value":"O"},
+				{"value":"U"},
+				{"value":"I"}
+			]
+		},
+		{
+			"question":"R _ _ T E",
+			"responses":[
+				{"value":"A & E"},
+				{"value":"I & L"},
+				{"value":"U & O", "correct":true},
+				{"value":"O & E"}
+			]
+		},
+		{
+			"question":"P R _ P _ S I T I _ N",
+			"responses":[
+				{"value":"I"},
+				{"value":"O", "correct":true},
+				{"value":"Y"},
+				{"value":"H"}
+			]
+		},
+		{
+			"question":"G R I _ V E M E N T",
+			"responses":[
+				{"value":"ê"},
+				{"value":"é"},
+				{"value":"è", "correct":true},
+				{"value":"e"}
+			]
+		},
+		{
+			"question":"D _ C _ L _ R",
+			"responses":[
+				{"value":"I"},
+				{"value":"E", "correct":true},
+				{"value":"O"},
+				{"value":"U"}
+			]
+		},
+		{
+			"question":"_ A _ _ A I R E",
+			"responses":[
+				{"value":"C"},
+				{"value":"T"},
+				{"value":"M", "correct":true},
+				{"value":"L"}
+			]
+		}
+	] 
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>UsersList</title>
+	<link rel="stylesheet" href="/css/userslist.css" />
+</head>
+<body>
+{% for user in users %}
+<center>
+<h1><img src="{{quiz_content.image.url}}" class="logo" /></h1>
+<span class="team">Équipe :</span>
+<h2 class="name">{{ user.name|e }}</h2>
+<p class="url">{{ root }}/u/{{ user.hash }}</p>
+<img src="{{ user.avatar }}" class="avatar" />
+<img class="qrcode" src="http://api.qrserver.com/v1/create-qr-code/?color=2E5785&bgcolor=FFFFFF&data={{ root }}/u/{{ user.hash }}&qzone=1&margin=0&size=200x200&ecc=L" />
+</center>
+{% endfor %}
+</body>
+</html>

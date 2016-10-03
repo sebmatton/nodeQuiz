@@ -1,0 +1,79 @@
+{
+	"users":[
+		{
+			"name":"Cuisine",
+			"role":"guest",
+			"avatar":"/img/user-cuisine.png"
+		},
+		{
+			"name":"Langue des signes",
+			"role":"guest",
+			"avatar":"/img/user-signes.png"
+		},
+		{
+			"name":"Médias",
+			"role":"guest",
+			"avatar":"/img/user-medias.png"
+		},
+		{
+			"name":"Nageur-sauveteur",
+			"role":"guest",
+			"avatar":"/img/user-nageur.png"
+		},
+		{
+			"name":"Nature et forêt A",
+			"role":"guest",
+			"avatar":"/img/user-nature-A.png"
+		},
+		{
+			"name":"Nature et forêt B",
+			"role":"guest",
+			"avatar":"/img/user-nature-B.png"
+		},
+		{
+			"name":"Sécurité A",
+			"role":"guest",
+			"avatar":"/img/user-securite-A.png"
+		},
+		{
+			"name":"Sécurité B",
+			"role":"guest",
+			"avatar":"/img/user-securite-B.png"
+		},
+		{
+			"name":"Soins-O-Scouts A",
+			"role":"guest",
+			"avatar":"/img/user-soins-A.png"
+		},
+		{
+			"name":"Soins-O-Scouts B",
+			"role":"guest",
+			"avatar":"/img/user-soins-B.png"
+		},
+		{
+			"name":"Sports insolites A",
+			"role":"guest",
+			"avatar":"/img/user-sports-A.png"
+		},
+		{
+			"name":"Sports insolites B",
+			"role":"guest",
+			"avatar":"/img/user-sports-B.png"
+		},
+		{
+			"name":"Tous en scène",
+			"role":"guest",
+			"avatar":"/img/user-scene.png"
+		},
+		{
+			"name":"Sébastien",
+			"role":"admin",
+			"avatar":"/img/user-unknown.png"
+		},
+		{
+			"name":"Screen",
+			"role":"screen",
+			"avatar":"/img/user-screen.png"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Quel pays européen a construit un mur de barbelés pour éviter l'afflux de migrants ?",
+			"responses":[
+				{"value":"Hongrie", "correct":true},
+				{"value":"Danemark"},
+				{"value":"Slovaquie"},
+				{"value":"Serbie"}
+			]
+		},
+		{
+			"question":"Quel pays crée la surprise en battant l'Afrique du Sud (34-32) en coupe du monde de Rugby ?",
+			"responses":[
+				{"value":"Éthiopie"},
+				{"value":"Samoa"},
+				{"value":"Écosse"},
+				{"value":"Japon", "correct":true}
+			]
+		},
+		{
+			"question":"Comment s'appelle le nouveau PDG de Volkswagen ?",
+			"responses":[
+				{"value":"Matthias Müller", "correct":true},
+				{"value":"Martin Winterkorn"},
+				{"value":"Bernd Pischetsrieder "},
+				{"value":"Carlos Tavares"}
+			]
+		},
+		{
+			"question":"Aux élections du 7 juin, quel parti d'opposition fait pour la 1e fois son entrée au Parlement turc ?",
+			"responses":[
+				{"value":"ECOLO"},
+				{"value":"AKP"},
+				{"value":"HDP", "correct":true},
+				{"value":"CHP"}
+			]
+		},
+		{
+			"question":"Quel est le thème de l'exposition universelle 2015 organisée à Milan ?",
+			"responses":[
+				{"value":"Énergie du futur"},
+				{"value":"Nourrir la planète", "correct":true},
+				{"value":"Connecter les Esprits"},
+				{"value":"Les Fleurs et les Enfants"}
+			]
+		},
+		{
+			"question":"Après l'Autriche et Conchita Wurst, quel pays a remporté l'Eurovision cette année ?",
+			"responses":[
+				{"value":"Belgique"},
+				{"value":"Russie"},
+				{"value":"Suède", "correct":true},
+				{"value":"Norvège"}
+			]
+		},
+		{
+			"question":"Qui remporte le tour de France 2015 ?",
+			"responses":[
+				{"value":"Vincenzo Nibali"},
+				{"value":"Nairo Quintana"},
+				{"value":"Christopher Froome", "correct":true},
+				{"value":"Eddy Merckx"}
+			]
+		},
+		{
+			"question":"Le 25 avril 2015, un violent séisme fait plus de 7800 morts. Où était-ce ?",
+			"responses":[
+				{"value":"Au Pakistan"},
+				{"value":"Au Népal", "correct":true},
+				{"value":"Au Tibet"},
+				{"value":"Au Bhutan"}
+			]
+		},
+		{
+			"question":"Qui était le terroriste de l’épicerie casher porte de Vincennes, à Paris ? ",
+			"responses":[
+				{"value":"Amady Coulibaly"},
+				{"value":"Amedy Coullibaly"},
+				{"value":"Amedy Coulibaly", "correct":true},
+				{"value":"Amedy Couliballi"}
+			]
+		},
+		{
+			"question":"Quelles villes sont capitales Européennes de la culture en 2015 ?",
+			"responses":[
+				{"value":"Mons et Umeå"},
+				{"value":"Mons et Istanbul"},
+				{"value":"Mons et Kaunas"},
+				{"value":"Mons et Plzen", "correct":true}
+			]
+		}
+	] 
+}

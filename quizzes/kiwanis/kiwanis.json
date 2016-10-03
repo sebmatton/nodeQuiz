@@ -1,0 +1,95 @@
+{
+	"questions": [
+		{
+			"question":" Depuis combien de temps le Kiwanis Dilbeek Bruegel existe-t-il ?",
+			"responses":[
+				{"value":"38 ans"},
+				{"value":"39 ans"},
+				{"value":"41 ans", "correct":true},
+				{"value":"2 ans"}
+			]
+		},
+		{
+			"question":"Combien de membres comporte le Kiwanis Belux ?",
+			"responses":[
+				{"value":"4503"},
+				{"value":"4462","correct":true},
+				{"value":"4552"},
+				{"value":"4207"}
+			]
+		},
+		{
+			"question":"Dans quelle ville le Kiwanis a-t-il vu le jour ?",
+			"responses":[
+				{"value":"Detroit", "correct":true},
+				{"value":"Indianapolis"},
+				{"value":"Vienne"},
+				{"value":"Portland"}
+			]
+		},
+		{
+			"question":"Qui a succédé à Hugo comme Lieutenant Gouverneur ?",
+			"responses":[
+				{"value":"Hubert Chantraine"},
+				{"value":"Georges Lemmers"},
+				{"value":"Emile De Beys"},
+				{"value":"Michel Mélon", "correct":true}
+			]
+		},
+		{
+			"question":"Que veut dire Kiwanis ?",
+			"responses":[
+				{"value":"Aidons-nous les uns les autres"},
+				{"value":"Epaulons les enfants dans l'adversité"},
+				{"value":"L'esprit de service s'exerce à tout heure"},
+				{"value":"Nous avons plaisir à partager nos talents", "correct":true}
+			]
+		},
+		{
+			"question":"Quel est le logo officiel du Kiwanis ?",
+			"responses":[
+				{"value":"Kiwanis"},
+				{"value":"K inscrit dans une roue", "correct":true},
+				{"value":"K inscrit dans une mappemonde"},
+				{"value":"Rotary"}
+			]
+		},
+		{
+			"question":"Quelle est le numéro de la réunion de ce soir ?",
+			"responses":[
+				{"value":"1"},
+				{"value":"6"},
+				{"value":"930", "correct":true},
+				{"value":"945"}
+			]
+		},
+		{
+			"question":"Quel est le nombre de membres officiels du KDB inscrits au DOL ?",
+			"responses":[
+				{"value":"19"},
+				{"value":"20"},
+				{"value":"21", "correct":true},
+				{"value":"22"}
+			]
+		},
+		{
+			"question":"Quel est le nombre de clubs Kiwanis à Bruxelles ?",
+			"responses":[
+				{"value":"8"},
+				{"value":"9", "correct":true},
+				{"value":"10"},
+				{"value":"11"}
+			]
+		},
+		{
+			"question":"Quel est le pourcentage de femmes membres dans le district Kiwanis Belux ?",
+			"responses":[
+				{"value":"25%"},
+				{"value":"12%"},
+				{"value":"7%"},
+				{"value":"17%", "correct":true}
+			]
+		}
+		
+	] 
+}
