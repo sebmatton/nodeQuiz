@@ -1,0 +1,62 @@
+{
+	"name":"Quiz Brevets Éclaireurs Octobre 2016",
+	"short": "Quiz Brevets",
+	"author":"Sébastien Matton",
+	"image": {"url":"/img/logo-quiz.svg","ratio":0.6},
+	"quizzes": [
+		{
+			"name":"Pour du beurre",
+			"path":"test.json",
+			"type":"Pour du beurre",
+			"active":true
+		},
+		{
+			"name":"Actualité 2016",
+			"path":"actualite_2016_10_04.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Les grandes inventions et découvertes",
+			"path":"inventions_2016_10_04.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Une lettre qui manque",
+			"path":"lettre_manque.json",
+			"type":"Contre la montre",
+			"active":true
+		},
+		{
+			"name":"N'oubliez pas les paroles",
+			"path":"paroles.json",
+			"type":"Audio",
+			"active":true
+		},
+		{
+			"name":"Prise de tête",
+			"path":"prises_tete.json",
+			"type":"Contre la montre",
+			"active":true
+		},
+		{
+			"name":"Les stars de Disney Channel",
+			"path":"stars_disney.json",
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Des animaux qui pètent un câble",
+			"path":"animaux.json",	
+			"type":"Standard",
+			"active":true
+		},
+		{
+			"name":"Termes culinaires",
+			"path":"cuisine_2016_10_04.json",
+			"type":"Standard",
+			"active":true
+		}
+	]
+}

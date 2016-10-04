@@ -1,0 +1,96 @@
+{
+	"comment_title": "Les grandes inventions et découvertes"
+	"questions": [
+		{
+			"question":"Pour quelle invention Alexander Graham a-t-il été reconnu en 1874 ?",
+			"responses":[
+				{"value":"Le télégraphe"},
+				{"value":"Le téléphone ", "correct":true},
+				{"value":"Le phonographe"},
+				{"value":"Le stéthoscope"}
+			]
+		},
+		{
+			"question":"Qui a effectué la première traversée de l'Atlantique ?",
+			"responses":[
+				{"value":"Louis Blériot"},
+				{"value":"Charles Lindberg ", "correct":true},
+				{"value":"Thomas Edison"},
+				{"value":"Georges Stephenson"}
+			]
+		},
+		{
+			"question":"Durant quel siècle la machine à vapeur a-t-elle été inventée ?",
+			"responses":[
+				{"value":"15ème siècle"},
+				{"value":"17ème siècle"},
+				{"value":"18ème siècle ", "correct":true},
+				{"value":"20ème siècle"}
+			]
+		},
+		{
+			"question":"Grâce à qui disposons-nous de lampes électriques ?",
+			"responses":[
+				{"value":"Samuel Morse"},
+				{"value":"Zenobe Gramme"},
+				{"value":"Graham Bell"},
+				{"value":"Thomas Edison ", "correct":true}
+			]
+		},
+		{
+			"question":"En quelle année la pénicilline a-t-elle été découverte ?",
+			"responses":[
+				{"value":"En 1864"},
+				{"value":"En 1928 ", "correct":true},
+				{"value":"En 1885"},
+				{"value":"En 1895"}
+			]
+		},
+		{
+			"question":"En 1835, la première ligne de chemin de fer belge a relié deux villes belges. Lesquelles ?",
+			"responses":[
+				{"value":"Liége et Anvers"},
+				{"value":"Hasselt et Malines"},
+				{"value":"Liége et Namur"},
+				{"value":"Bruxelles et Malines ", "correct":true},
+				{"value":"Bruxelles et Anvers"}
+			]
+		},
+		{
+			"question":"Le premier pas de l'homme sur la Lune a eu lieu en quelle année ?",
+			"responses":[
+				{"value":"1939"},
+				{"value":"1969 ", "correct":true},
+				{"value":"1999"},
+				{"value":"2009"}
+			]
+		},
+		{
+			"question":"Depuis quand la Croix-Rouge existe-t-elle ?",
+			"responses":[
+				{"value":"1764"},
+				{"value":"1864 ", "correct":true},
+				{"value":"1964"},
+				{"value":"1984"}
+			]
+		},
+		{
+			"question":"Qui a inventé la machine à vapeur ?",
+			"responses":[
+				{"value":"James Watt ", "correct":true},
+				{"value":"Georges Stephenson"},
+				{"value":"Henri Ford"},
+				{"value":"Charles Lindberg"}
+			]
+		},
+		{
+			"question":"Laquelle de ces inventions n'a pas eu lieu au 19ème siècle ?",
+			"responses":[
+				{"value":"La locomotive à vapeur"},
+				{"value":"Le téléphone"},
+				{"value":"La lampe électrique"},
+				{"value":"La montgolfière ", "correct":true}
+			]
+		}
+	]
+}

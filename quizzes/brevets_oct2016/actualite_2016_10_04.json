@@ -1,0 +1,94 @@
+{
+	"questions": [
+		{
+			"question":"Quand le referendum sur le Brexit a-t-il eu lieu ?",
+			"responses":[
+				{"value":"Le 22 juin 2016"},
+				{"value":"Le 23 juin 2016", "correct":true},
+				{"value":"Le 24 juin 2016"},
+				{"value":"Le 25 juin 2016"}
+			]
+		},
+		{
+			"question":"Quel pourcentage des Britanniques décide de quitter l'UE ?",
+			"responses":[
+				{"value":"50,9%"},
+				{"value":"51,9%", "correct":true},
+				{"value":"52,9%"},
+				{"value":"53,9%"}
+			]
+		},
+		{
+			"question":"Euro 2016 : quel pays a éliminé les \"Diables Rouges\" ?",
+			"responses":[
+				{"value":"La Pologne"},
+				{"value":"L'Italie"},
+				{"value":"Le Pays de Galles", "correct":true},
+				{"value":"L'Allemagne"}
+			]
+		},
+		{
+			"question":"Dans quelle ville du Bangladesh un attentat de l'EI a-t-il eu lieu le 1e juillet ?",
+			"responses":[
+				{"value":"Dacca", "correct":true},
+				{"value":"Bangkok"},
+				{"value":"New Delhi"},
+				{"value":"Téhéran"}
+			]
+		},
+		{
+			"question":"Quelle édition du tour de France fêtions-nous en 2016 ?",
+			"responses":[
+				{"value":"83e"},
+				{"value":"93e"},
+				{"value":"103e", "correct":true},
+				{"value":"113e"}
+			]
+		},
+		{
+			"question":"La reine Elizabeth II est née le 21 avril de quelle année ?",
+			"responses":[
+				{"value":"1916"}
+				{"value":"1921"},
+				{"value":"1926", "correct":true},
+				{"value":"1931"},
+			]
+		},
+		{
+			"question":"Quel est le journal allemand à l'origine de l'affaire Panama Papers ?",
+			"responses":[
+				{"value":"Die Kartoffel"},
+				{"value":"Süddeutsche Zeitung", "correct":true},
+				{"value":"Die Welt"},
+				{"value":"Der Spiegel"}
+			]
+		},
+		{
+			"question":"Quand l'élection présidentielle américaine se tiendra-t-elle ?",
+			"responses":[
+				{"value":"29 octobre 2016"},
+				{"value":"2 novembre 2016"},
+				{"value":"5 novembre 2016"},
+				{"value":"8 novembre 2016", "correct":true}
+			]
+		},
+		{
+			"question":"Quel film a reçu la Palme d'or au festival de Cannes de 2016 ?",
+			"responses":[
+				{"value":"Moi, Daniel Blake", "correct":true},
+				{"value":"American Honey"},
+				{"value":"Juste La Fin Du Monde"},
+				{"value":"Le monde de Dory"}
+			]
+		},
+		{
+			"question":"Dans quel pays se tiennent aujourd'hui les élections législatives ?",
+			"responses":[
+				{"value":"Hongrie"},
+				{"value":"Tunisie"},
+				{"value":"Maroc", "correct":true},
+				{"value":"Mexique"}
+			]
+		}
+	] 
+}

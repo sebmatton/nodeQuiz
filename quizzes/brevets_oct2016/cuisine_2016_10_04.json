@@ -1,0 +1,95 @@
+{
+	"comment_title": "Les termes de cuisine",
+	"questions": [
+		{
+			"question":"Que signifie le mot \"singer\" ?",
+			"responses":[
+				{"value":"Faire comme fait le chef"},
+				{"value":"Saupoudrer de farine ", "correct":true},
+				{"value":"Ébouillanter un crustacé"},
+				{"value":"Signer au plat"}
+			]
+		},
+		{
+			"question":"Que veut dire \"turbiner\" ?",
+			"responses":[
+				{"value":"Préparer un plat à plusieurs cuisiniers 'à la chaîne"},
+				{"value":"Envoyer les plats commandés le plus rapidement possible"},
+				{"value":"Faire prendre un appareil à crème glacée dans une sorbetière ", "correct":true},
+				{"value":"Pétrir une pâte à pain durant plusieurs heures"}
+			]
+		},
+		{
+			"question":"Que signifie \"zester\" ?",
+			"responses":[
+				{"value":"Mettre des zestes de citron ou d'orange"},
+				{"value":"Enlever les zestes de citron ou d'orange ", "correct":true},
+				{"value":"Mélanger de la farine à de l'eau"},
+				{"value":"Alourdir la préparation"}
+			]
+		},
+		{
+			"question":"Que signifie le terme \"concasser\" ?",
+			"responses":[
+				{"value":"Enlever la peau des tomates"},
+				{"value":"Piler ou écraser ", "correct":true},
+				{"value":"Réduire en purée"},
+				{"value":"Servir de la viande avariée"}
+			]
+		},
+		{
+			"question":"Qu'appelle-t-on \"fraiser\" ?",
+			"responses":[
+				{"value":"Pétrir du beurre avec du persil, et de la farine"},
+				{"value":"Disposer les fraises sur la tarte"},
+				{"value":"Pétrir une pâte avec la paume des mains ", "correct":true},
+				{"value":"Faire des petits trous dans la pâte"}
+			]
+		},
+		{
+			"question":"En cuisine, qu'est-ce qu'un chinois ?",
+			"responses":[
+				{"value":"Le petit mitron de service"},
+				{"value":"Un gâteau aux amandes"},
+				{"value":"Une passoire ", "correct":true},
+				{"value":"Un habitant de la chine"}
+			]
+		},
+		{
+			"question":"Que veut dire \"canneler\" ?",
+			"responses":[
+				{"value":"Arroser avec un alcool"},
+				{"value":"Parfumer à la canelle"},
+				{"value":"Creuser de petits sillons ", "correct":true},
+				{"value":"Ficeler de la viande"}
+			]
+		},
+		{
+			"question":"Que signifie \"brider\" ?",
+			"responses":[
+				{"value":"Attacher les membres d'une volaille pour les maintenir durant la cuisson ", "correct":true},
+				{"value":"Entourer un roti de ficelle, pour le maintenir"},
+				{"value":"Découper de la crème avec une passoire"},
+				{"value":"Allonger les yeux des truites"}
+			]
+		},
+		{
+			"question":"Qu'appelle-t-on \"bavarois\" ?",
+			"responses":[
+				{"value":"Un dessert à base de crème fraîche, de chocolat et de cerises"},
+				{"value":"Un dessert glacé, à base de crème de fruits"},
+				{"value":"Un flan aux fruits"},
+				{"value":"Un dessert à base de crème anglaise, gélatine et crème fouettée ", "correct":true}
+			]
+		},
+		{
+			"question":"Qu'est-ce qu'un aspic ?",
+			"responses":[
+				{"value":"Une darne de poisson"},
+				{"value":"Un mets présenté en gelée ", "correct":true},
+				{"value":"Un dessert glacé"},
+				{"value":"Une seringue anti-venin"}
+			]
+		}
+	]
+}
