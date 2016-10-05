@@ -48,10 +48,10 @@
 		{
 			"question":"La reine Elizabeth II est née le 21 avril de quelle année ?",
 			"responses":[
-				{"value":"1916"}
+				{"value":"1916"},
 				{"value":"1921"},
 				{"value":"1926", "correct":true},
-				{"value":"1931"},
+				{"value":"1931"}
 			]
 		},
 		{
