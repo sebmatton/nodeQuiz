@@ -13,9 +13,9 @@
 		{
 			"question":"Que veut dire \"turbiner\" ?",
 			"responses":[
-				{"value":"Préparer un plat à plusieurs cuisiniers 'à la chaîne"},
-				{"value":"Envoyer les plats commandés le plus rapidement possible"},
-				{"value":"Faire prendre un appareil à crème glacée dans une sorbetière ", "correct":true},
+				{"value":"Préparer un plat à plusieurs cuisiniers à la chaîne"},
+				{"value":"Monter des blancs d'oeuf en neige"},
+				{"value":"Faire prendre une crème glacée dans une sorbetière ", "correct":true},
 				{"value":"Pétrir une pâte à pain durant plusieurs heures"}
 			]
 		},
@@ -24,7 +24,7 @@
 			"responses":[
 				{"value":"Mettre des zestes de citron ou d'orange"},
 				{"value":"Enlever les zestes de citron ou d'orange ", "correct":true},
-				{"value":"Mélanger de la farine à de l'eau"},
+				{"value":"Râper des zestes de citron ou d'orange"},
 				{"value":"Alourdir la préparation"}
 			]
 		},
@@ -40,7 +40,7 @@
 		{
 			"question":"Qu'appelle-t-on \"fraiser\" ?",
 			"responses":[
-				{"value":"Pétrir du beurre avec du persil, et de la farine"},
+				{"value":"Pétrir du beurre avec du persil et de la farine"},
 				{"value":"Disposer les fraises sur la tarte"},
 				{"value":"Pétrir une pâte avec la paume des mains ", "correct":true},
 				{"value":"Faire des petits trous dans la pâte"}
@@ -67,19 +67,19 @@
 		{
 			"question":"Que signifie \"brider\" ?",
 			"responses":[
-				{"value":"Attacher les membres d'une volaille pour les maintenir durant la cuisson ", "correct":true},
-				{"value":"Entourer un roti de ficelle, pour le maintenir"},
+				{"value":"Attacher les membres d'une volaille pour les maintenir", "correct":true},
+				{"value":"Entourer un roti de ficelle pour le maintenir"},
 				{"value":"Découper de la crème avec une passoire"},
 				{"value":"Allonger les yeux des truites"}
 			]
 		},
 		{
-			"question":"Qu'appelle-t-on \"bavarois\" ?",
+			"question":"À base de quoi est composé le dessert \"bavarois\" ?",
 			"responses":[
-				{"value":"Un dessert à base de crème fraîche, de chocolat et de cerises"},
-				{"value":"Un dessert glacé, à base de crème de fruits"},
-				{"value":"Un flan aux fruits"},
-				{"value":"Un dessert à base de crème anglaise, gélatine et crème fouettée ", "correct":true}
+				{"value":"À base de crème fraîche, chocolat et cerises"},
+				{"value":"À base de crème de fruits, servi glâcé"},
+				{"value":"À base d'un flan aux fruits"},
+				{"value":"À base de crème anglaise, gélatine et crème fouettée", "correct":true}
 			]
 		},
 		{
