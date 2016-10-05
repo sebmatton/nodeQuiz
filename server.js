@@ -25,7 +25,7 @@ var root_url = 'http://127.0.0.1';
 var server_id = 'http://127.0.0.1';
 // var server_id = 'http://quiz.lesscouts.be';
 // var root_url = 'http://quiz.lesscouts.be';
-// var userslist_root_url = 'http://quiz.lesscouts.be';
+var userslist_root_url = 'http://quiz.lesscouts.be';
 
 var current_step = 'start';
 var current_quiz = 0;
