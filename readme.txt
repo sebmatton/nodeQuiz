@@ -3,7 +3,8 @@ INSTALLATION & CONFIGURATION
 - Installer node.js (dernière version, https://nodejs.org/en/)
 - cd [quizz directory] et taper "npm install" puis "npm update"
 - configurer un access point wifi
-	* server dhcp actif, range 10.0.0.x / 255.255.255.0 (attribution d'ip entre 100 et 254)
+	* serveur dhcp actif, range 10.0.0.x / 255.255.255.0 (attribution d'ip entre 100 et 254)
+	* serveur dns à utiliser par les clients : 10.0.0.10
 - configurer le pc connecté à l'access point en ip statique 10.0.0.10 / 255.255.255.0
 
 Configuration DNS :
@@ -63,7 +64,7 @@ Une fois un bonus activé, il n'est plus utilisable pour la suite du jeu.
 
 Admin
 -----
-Pour se connecter à l'interface d'aministration, il faut d'abord se connecter à l'interface joueur de l'administrateur, en utilisant l'url correspondant ("http://sous.domaine.com/u/[HASH]"), de manière à ce que la session soit ouverte en admin. Le hash de l'administrateur s'affiche dans la console de lancement du programme (Info "Admin:    [ADMIN_NAME]=>[HASH]). Une fois la page correctement chargée, ouvrir l'interface d'aministration via l'url "http://sous.domaine.com/admin/".
+Pour se connecter à l'interface d'aministration, il faut d'abord se connecter à l'interface joueur de l'administrateur, en utilisant l'url correspondant ("http://sous.domaine.com/u/[HASH]"), de manière à ce que la session soit ouverte en admin. Le hash de l'administrateur s'affiche dans la console de lancement du programme (Info "Admin:    [ADMIN_NAME]=>[HASH]). Une fois la page correctement chargée, ouvrir l'interface d'administration via l'url "http://sous.domaine.com/admin/".
 
 Une fois dans l'interface d'administration, il est possible de lancer les différents questionnaires, de les corriger, d'afficher les résultats du questionnaire ou le classement général.
 
@@ -73,4 +74,4 @@ Toutes les informations de la page admin sont actualisées en temps réel (utili
 
 URL joueurs
 -----------
-Dans l'interface d'administration, l'avatar de chaque utilisateur sur la partie droite de l'écran renvoie vers l'url de chaque joueur. Il est possible de générer une liste imprimable avec qr code (avec une connexion internet, via l'url "http://sous.domaine.com/userslist/") une fois que l'application tourne.
+Dans l'interface d'administration, l'avatar de chaque utilisateur sur la partie droite de l'écran renvoie vers l'url de chaque joueur. Il est possible de générer une liste imprimable avec qr code (avec une connexion internet) via l'url "http://sous.domaine.com/userslist/" une fois que l'application tourne.
